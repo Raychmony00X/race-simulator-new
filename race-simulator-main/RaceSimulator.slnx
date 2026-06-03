@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../RaceSimulatorDynamicLib/RaceSimulatorDynamicLib.vcxproj" Id="51b6841e-679d-4dd9-ae55-0940b74269a2" />
+  <Project Path="RaceSimulator.vcxproj" Id="6921ee5a-1211-4701-b95a-cc40ef5f1805" />
+</Solution>

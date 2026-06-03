@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(RaceSimulator)
+file(GLOB bin-src "include/*.h" "./*.cpp")
+add_executable(${PROJECT_NAME} ${bin-src})
+target_link_libraries(${PROJECT_NAME} PUBLIC Race-lib)
+target_include_directories(${PROJECT_NAME} PUBLIC include)
