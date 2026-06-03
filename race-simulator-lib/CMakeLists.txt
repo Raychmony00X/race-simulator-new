@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+project(RaceSimulatorDynamicLib)  
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+file(GLOB LIB_SOURCES "*.cpp")
+file(GLOB LIB_HEADERS "include/*.h")
+add_library(${PROJECT_NAME} SHARED ${LIB_SOURCES} ${LIB_HEADERS})
+target_include_directories(${PROJECT_NAME} PUBLIC include)
+message(STATUS "Building: ${PROJECT_NAME}")
